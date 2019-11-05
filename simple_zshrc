@@ -52,3 +52,4 @@ export LESS_TERMCAP_us=$'\E[1;32m'
 export LESS_TERMCAP_ue=$'\E[0m'
 
 export EDITOR="/usr/bin/vim"
+export VISUAL="/usr/bin/vim"
