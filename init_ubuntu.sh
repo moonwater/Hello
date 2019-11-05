@@ -5,7 +5,7 @@ sudo apt list --upgradable
 cd
 git clone https://github.com/junegunn/fzf.git
 ~/fzf/install
-sudo apt install zsh emacs libmicrohttpd-dev libssl-dev cmake build-essential libhwloc-dev ccze  openssh-server build-essential tmux icdiff autojump curl bat fortune-mod magic-wormhole grc wdiff
+sudo apt install zsh emacs libmicrohttpd-dev libssl-dev cmake build-essential libhwloc-dev ccze openssh-server build-essential tmux icdiff autojump curl fortune-mod magic-wormhole grc wdiff
 source ~/.bashrc
 
 while true; do
