@@ -17,10 +17,10 @@ while true; do
     esac
 done
 
+curl -sSL https://raw.githubusercontent.com/moonwater/Hello/master/simple_zshrc > .zshrc
+
 echo "install oh_my_zsh"
 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
 
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
-
-curl -sSL https://raw.githubusercontent.com/moonwater/Hello/master/simple_zshrc > .zshrc
