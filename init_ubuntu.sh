@@ -5,9 +5,7 @@ sudo apt list --upgradable
 echo "enable sudoer"
 sudo sed -i '$ a master   ALL=(ALL:ALL) NOPASSWD:ALL' /etc/sudoers
 
-echo -n "Enter the password: "
-read -s password
-echo 'master:$password' | sudo chpasswd
+sudo passwd master
 
 cd
 git clone https://github.com/junegunn/fzf.git
