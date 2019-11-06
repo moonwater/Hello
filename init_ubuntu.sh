@@ -7,7 +7,7 @@ sudo sed -i '$ a master   ALL=(ALL:ALL) NOPASSWD:ALL' /etc/sudoers
 
 echo -n "Enter the password: "
 read -s password
-echo "$password" | passwd "$username" --stdin
+echo "$password" | passwd master --stdin
 
 cd
 git clone https://github.com/junegunn/fzf.git
