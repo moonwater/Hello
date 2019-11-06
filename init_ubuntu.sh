@@ -4,6 +4,7 @@ sudo apt-get update
 sudo apt list --upgradable
 echo "enable sudoer"
 sudo sed -i '$ a master   ALL=(ALL:ALL) NOPASSWD:ALL' /etc/sudoers
+sudo passwd master
 
 cd
 git clone https://github.com/junegunn/fzf.git
@@ -14,7 +15,7 @@ source ~/.bashrc
 while true; do
     read -p "Do you wish to change to zsh? Yy/Nn" yn
     case $yn in
-        [Yy]* ) chsh -s `which zsh`; break;;
+        [Yy]* ) chsh -s `which zsh` master; break;;
         [Nn]* ) exit;;
         * ) echo "Please answer yes or no.";;
     esac
