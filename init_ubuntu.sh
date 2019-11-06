@@ -18,7 +18,7 @@ sudo passwd master
 cd
 git clone https://github.com/junegunn/fzf.git
 ~/fzf/install
-sudo apt install zsh emacs libmicrohttpd-dev libssl-dev cmake build-essential libhwloc-dev ccze openssh-server build-essential tmux icdiff autojump curl fortune-mod magic-wormhole grc wdiff bat git secure-delete
+sudo apt install zsh emacs libmicrohttpd-dev libssl-dev cmake build-essential libhwloc-dev ccze openssh-server build-essential tmux icdiff autojump curl fortune-mod magic-wormhole grc wdiff bat git secure-delete sshguard
 source ~/.bashrc
 
 while true; do
