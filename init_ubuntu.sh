@@ -18,7 +18,7 @@ source ~/.bashrc
 while true; do
     read -p "Do you wish to change to zsh? Yy/Nn" yn
     case $yn in
-        [Yy]* ) chsh -s `which zsh` master; break;;
+        [Yy]* ) chsh -s `which zsh`; break;;
         [Nn]* ) exit;;
         * ) echo "Please answer yes or no.";;
     esac
