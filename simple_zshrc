@@ -12,7 +12,7 @@ plugins=(
   rsync
   themes
   httpie
-  git-prompt
+# git-prompt
   encode64
   systemd
   web-search
