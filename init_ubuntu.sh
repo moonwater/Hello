@@ -13,7 +13,7 @@ echo "==================================="
 echo "enable sudoer"
 sudo sed -i '$ a master   ALL=(ALL:ALL) NOPASSWD:ALL' /etc/sudoers
 
-sudo passwd master
+# sudo passwd master
 
 cd
 git clone https://github.com/junegunn/fzf.git
@@ -45,14 +45,16 @@ sudo apt -y install libhwloc-dev
 
 source ~/.bashrc
 
-while true; do
-    read -p "Do you wish to change to zsh? Yy/Nn" yn
-    case $yn in
-        [Yy]* ) chsh -s `which zsh`; break;;
-        [Nn]* ) exit;;
-        * ) echo "Please answer yes or no.";;
-    esac
-done
+sudo chsh -s `which zsh` master
+
+#while true; do
+#    read -p "Do you wish to change to zsh? Yy/Nn" yn
+#    case $yn in
+#        [Yy]* ) chsh -s `which zsh`; break;;
+#        [Nn]* ) exit;;
+#        * ) echo "Please answer yes or no.";;
+#    esac
+#done
 
 curl -sSL https://raw.githubusercontent.com/moonwater/Hello/master/simple_zshrc > .zshrc
 
