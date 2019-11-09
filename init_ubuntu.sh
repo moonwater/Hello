@@ -18,12 +18,12 @@ sudo passwd master
 cd
 git clone https://github.com/junegunn/fzf.git
 ~/fzf/install
-sudo apt install zsh
-sudo apt install emacs libmicrohttpd-dev libssl-dev cmake build-essential \ 
+sudo apt -y install zsh
+sudo apt -y install emacs libmicrohttpd-dev libssl-dev cmake build-essential \ 
     ccze openssh-server build-essential tmux icdiff autojump curl \
     fortune-mod magic-wormhole grc wdiff bat git secure-delete sshguard net-tools \
     mosh
-sudo apt install libhwloc-dev
+sudo apt -y install libhwloc-dev
 
 source ~/.bashrc
 
