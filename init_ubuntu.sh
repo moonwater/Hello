@@ -17,7 +17,7 @@ sudo sed -i '$ a master   ALL=(ALL:ALL) NOPASSWD:ALL' /etc/sudoers
 
 cd
 git clone https://github.com/junegunn/fzf.git
-~/fzf/install
+~/fzf/install --all
 
 sudo apt -y install zsh
 sudo apt -y install build-essential
