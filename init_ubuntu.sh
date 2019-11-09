@@ -19,9 +19,11 @@ cd
 git clone https://github.com/junegunn/fzf.git
 ~/fzf/install
 sudo apt install zsh emacs libmicrohttpd-dev libssl-dev cmake build-essential \ 
-    libhwloc-dev ccze openssh-server build-essential tmux icdiff autojump curl \
+    ccze openssh-server build-essential tmux icdiff autojump curl \
     fortune-mod magic-wormhole grc wdiff bat git secure-delete sshguard net-tools \
     mosh
+sudo apt install libhwloc-dev
+
 source ~/.bashrc
 
 while true; do
