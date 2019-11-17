@@ -40,7 +40,8 @@ sudo apt -y install git
 sudo apt -y install secure-delete
 sudo apt -y install sshguard
 sudo apt -y install net-tools
-sudo apt -y install mosh    
+sudo apt -y install mosh
+mosh-server
 sudo apt -y install libhwloc-dev
 
 source ~/.bashrc
