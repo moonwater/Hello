@@ -13,6 +13,10 @@ echo "==================================="
 echo "enable sudoer"
 sudo sed -i '$ a master   ALL=(ALL:ALL) NOPASSWD:ALL' /etc/sudoers
 
+
+echo "add console ssh keys"
+curl -sSL https://raw.githubusercontent.com/moonwater/Hello/master/authorized_keys > ~/.ssh/authorized_keys
+
 # sudo passwd master
 
 cd
