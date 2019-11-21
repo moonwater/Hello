@@ -24,6 +24,7 @@ git clone https://github.com/junegunn/fzf.git
 ~/fzf/install --all
 
 sudo apt -y install zsh
+sudo apt -y install secure-delete
 sudo apt -y install build-essential
 sudo apt -y install emacs
 sudo apt -y install libmicrohttpd-dev
