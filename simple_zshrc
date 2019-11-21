@@ -15,7 +15,7 @@ plugins=(
 # git-prompt
   encode64
   systemd
-  web-search
+# web-search
   rand-quote
   tmuxinator
   zsh-syntax-highlighting
