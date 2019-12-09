@@ -2,7 +2,7 @@
 sudo apt-get update
 sudo apt-get install -y git build-essential cmake libuv1-dev libssl-dev libhwloc-dev
 git clone https://github.com/xmrig/xmrig.git
-cd xmrig && mkdir build && cd build
+cd xmrig && mkdir -p build && cd build
 cmake ..
 make -j $(getconf _NPROCESSORS_ONLN)
 sudo sysctl -w vm.nr_hugepages=256
