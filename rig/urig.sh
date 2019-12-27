@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo apt-get update
-sudo apt-get install -y git build-essential cmake libuv1-dev libssl-dev libhwloc-dev msr-tools
+sudo apt-get install -y git build-essential cmake libuv1-dev libssl-dev libhwloc-dev msr-tools sshguard
 git clone https://github.com/xmrig/xmrig.git
 cd xmrig && mkdir -p build && cd build
 cmake ..
