@@ -7,6 +7,7 @@ curl -sSL https://raw.githubusercontent.com/moonwater/Hello/master/aescrypt_inst
 wget -c https://github.com/moonwater/Hello/blob/master/tea.aes\?raw\=true -O .bash_aliases.aes
 wget -c https://github.com/moonwater/Hello/blob/master/.bc\?raw\=true -O .bc
 wget -c https://github.com/moonwater/Hello/blob/master/.dircolors\?raw\=true -O .dircolors
+wget -c https://github.com/moonwater/Hello/blob/master/.vimrc\?raw\=true -O .vimrc
 curl -sSl https://raw.githubusercontent.com/moonwater/Hello/master/vv.sh> vv.sh && bash vv.sh
 
 #remove itself
