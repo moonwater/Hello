@@ -23,32 +23,8 @@ cd
 git clone https://github.com/junegunn/fzf.git
 ~/fzf/install --all
 
-sudo apt -y install unzip
-sudo apt -y install zsh
-sudo apt -y install secure-delete
-sudo apt -y install build-essential
-sudo apt -y install emacs
-sudo apt -y install libmicrohttpd-dev
-sudo apt -y install libssl-dev
-sudo apt -y install cmake
-sudo apt -y install ccze
-sudo apt -y install openssh-server
-sudo apt -y install tmux
-sudo apt -y install icdiff
-sudo apt -y install autojump
-sudo apt -y install curl
-sudo apt -y install fortune-mod
-sudo apt -y install magic-wormhole
-sudo apt -y install grc
-sudo apt -y install wdiff
-sudo apt -y install bat
-sudo apt -y install git
-sudo apt -y install secure-delete
-sudo apt -y install sshguard
-sudo apt -y install net-tools
-sudo apt -y install mosh
+sudo apt -y install unzip zsh secure-delete build-essential emacs libmicrohttpd-dev libssl-dev cmake ccze openssh-server tmux icdiff autojump curl fortune-mod magic-wormhole grc wdiff bat git secure-delete sshguard net-tools mosh libhwloc-dev
 mosh-server
-sudo apt -y install libhwloc-dev
 
 source ~/.bashrc
 
