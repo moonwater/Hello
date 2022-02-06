@@ -1,7 +1,7 @@
 export ZSH="/home/master/.oh-my-zsh"
 ZSH_THEME=random
 plugins=(
-  zsh_reload
+# zsh_reload
   colored-man-pages
   colorize
   command-not-found
